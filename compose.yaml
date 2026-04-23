@@ -1,0 +1,7 @@
+name: picoctf
+
+services:
+  shell:
+    build: .
+    stdin_open: true
+    tty: true
