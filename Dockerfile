@@ -4,7 +4,7 @@ FROM alpine:latest
 # RUN apk add --no-cache
 
 # Setup a non-root user
-RUN adduser -h /home/boss -s /bin/ash boss
+RUN adduser -h /home/boss -s /bin/ash -D boss
 
 USER boss
 WORKDIR /home/boss

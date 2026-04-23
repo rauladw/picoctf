@@ -1,3 +1,7 @@
+name: picoctf
+
 services:
-  picoctf-alpine:
+  shell:
     build: .
+    stdin_open: true
+    tty: true
